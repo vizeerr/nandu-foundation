@@ -4,6 +4,9 @@ body{
     font-family: "Josefin Sans", sans-serif;
     background: #fbf8f1;
 }
+.navbar{
+    background: #fbf8f1;
+}
 
 .nav-item{
     margin: 0 5px;
