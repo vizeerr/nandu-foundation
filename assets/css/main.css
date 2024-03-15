@@ -52,3 +52,45 @@ body{
 .animg{
     width: 40%;
 }
+
+
+
+
+.contact-banner{
+    background: #2f1500b1;
+    height: 10vh;
+    color: white;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.all-links{
+    background: #2f1500;
+    height: 50vh;
+    gap: 1rem;
+}
+.linkers{
+    width: 20%;
+    color: white;
+}
+.linkers p{
+    width: 95%;
+    font-size: 16px;
+    font-weight: 300;
+}
+.linkers ul{
+    list-style:  none;
+}
+.linkers ul>li{
+    line-height:  2em;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+.linkers ul>li a{
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+
