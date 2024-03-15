@@ -61,7 +61,7 @@ body{
 
 .contact-banner{
     background: #2f1500b1;
-    height: 10vh;
+    
     color: white;
 }
 footer a{
@@ -70,7 +70,7 @@ footer a{
 }
 .all-links{
     background: #2f1500;
-    height: 50vh;
+    
     gap: 1rem;
 }
 .linkers{
@@ -109,7 +109,16 @@ footer a{
     .container{
         max-width: 95%;
     }
-
+    
+    .contact-banner{
+        font-size: 16px !important;
+    }
+    .linkers{
+        width: 40% ;
+        border-top: 1px solid #888;
+        padding: 27px 0;
+    }
+    
 }
 @media only screen and (max-width: 769px) {
     
@@ -125,20 +134,25 @@ footer a{
     .display-6{
         text-align: center;
     }
-    .all-links{
+    /*.all-links{
         flex-direction: column;
         height: auto;
         align-items: center !important;
-    }
+    }*/
     .linkers {
         width: 80%;
-        color: white;
-   
         border-top: 1px solid #888;
         padding: 27px 0;
+       
     }
     .display-1 {
         font-size: 3em;
+    }
+    .contact-banner{
+        font-size: 14px !important;
+    }
+    .copy-rights p{
+        font-size: 14px;
     }
 
 }
@@ -149,6 +163,12 @@ footer a{
     }
     .fs-3,.fs-5{
         font-size: 18px !important;
+    }
+    .contact-banner{
+        font-size: 14px !important;
+    }
+    .copy-rights p{
+        font-size: 14px;
     }
 
 }
