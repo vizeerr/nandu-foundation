@@ -7,6 +7,9 @@ body{
 .navbar{
     background: #fbf8f1;
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
 
 .nav-item{
     margin: 0 5px;
@@ -94,3 +97,58 @@ footer a{
     gap: 0.3em;
 }
 
+
+@media only screen and (max-width: 1025px) {
+    .abt{
+        flex-direction: column;
+    }
+    .abt img{
+        width: 70%;
+        margin-top: 40px;
+    }
+    .container{
+        max-width: 95%;
+    }
+
+}
+@media only screen and (max-width: 769px) {
+    
+    .mfc{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .mfc{
+        gap:0 !important;
+    }
+    .display-6{
+        text-align: center;
+    }
+    .all-links{
+        flex-direction: column;
+        height: auto;
+        align-items: center !important;
+    }
+    .linkers {
+        width: 80%;
+        color: white;
+   
+        border-top: 1px solid #888;
+        padding: 27px 0;
+    }
+    .display-1 {
+        font-size: 3em;
+    }
+
+}
+
+@media only screen and (max-width: 426px) {
+    .abt img{
+        width: 100%;
+    }
+    .fs-3,.fs-5{
+        font-size: 18px !important;
+    }
+
+}
