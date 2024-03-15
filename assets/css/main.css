@@ -97,6 +97,10 @@ footer a{
     gap: 0.3em;
 }
 
+.fs-6{
+    font-size: 17px !important;
+    line-height: 30px;
+}
 
 @media only screen and (max-width: 1025px) {
     .abt{
@@ -147,8 +151,9 @@ footer a{
     .abt img{
         width: 100%;
     }
-    .fs-3,.fs-5{
+    .fs-3,.fs-5,.fs-4{
         font-size: 18px !important;
     }
+    
 
 }
