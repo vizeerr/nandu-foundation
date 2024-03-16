@@ -58,10 +58,13 @@ body{
 
 
 
-
+a{
+    text-decoration: none;
+    color: white;
+}
 .contact-banner{
     background: #2f1500b1;
-    height: 10vh;
+    
     color: white;
 }
 footer a{
@@ -70,7 +73,7 @@ footer a{
 }
 .all-links{
     background: #2f1500;
-    height: 50vh;
+    
     gap: 1rem;
 }
 .linkers{
@@ -97,10 +100,6 @@ footer a{
     gap: 0.3em;
 }
 
-.fs-6{
-    font-size: 17px !important;
-    line-height: 30px;
-}
 
 @media only screen and (max-width: 1025px) {
     .abt{
@@ -113,7 +112,22 @@ footer a{
     .container{
         max-width: 95%;
     }
-
+    
+    .contact-banner{
+        font-size: 16px !important;
+    }
+    .linkers{
+        width: 40% ;
+        
+        padding: 27px 0;
+    }
+    .contus{
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+    }
+    
 }
 @media only screen and (max-width: 769px) {
     
@@ -129,22 +143,31 @@ footer a{
     .display-6{
         text-align: center;
     }
-    .all-links{
+    /*.all-links{
         flex-direction: column;
         height: auto;
         align-items: center !important;
-    }
+    }*/
     .linkers {
         width: 80%;
-        color: white;
-   
-        border-top: 1px solid #888;
+        
         padding: 27px 0;
+       
     }
     .display-1 {
         font-size: 3em;
     }
-
+    .contact-banner{
+        font-size: 14px !important;
+    }
+    .copy-rights p{
+        font-size: 14px;
+    }
+    
+    .left-cont-det{
+        flex-direction: column;
+        gap: 3rem;
+    }
 }
 
 @media only screen and (max-width: 426px) {
@@ -154,6 +177,5 @@ footer a{
     .fs-3,.fs-5,.fs-4{
         font-size: 18px !important;
     }
-    
 
 }
