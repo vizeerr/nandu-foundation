@@ -63,7 +63,7 @@ a{
     color: white;
 }
 .contact-banner{
-    background: #2f1500b1;
+    background: #442105;
     
     color: white;
 }
@@ -129,9 +129,25 @@ footer a{
     width: 100%;
 }
 
-input{
+.contus input{
     width: 50%;
+    padding: 8px;
+    border: 2px solid #2f1500;
 }
+
+.contus textarea {
+    padding: 8px;
+    border: 2px solid #2f1500;
+}
+
+
+
+.detailtable th, .detailtable td{
+    padding: 15px;
+
+}
+
+
 @media only screen and (max-width: 1025px) {
     .abt{
         flex-direction: column;
@@ -165,20 +181,21 @@ input{
     .mfc{
         flex-direction: column;
         align-items: center;
+        gap:0 !important;
         
     }
 
-    .mfc{
+    .mfcr{
+        flex-direction: column-reverse;
+        align-items: center;
         gap:0 !important;
     }
+
+
     .display-6{
         text-align: center;
     }
-    /*.all-links{
-        flex-direction: column;
-        height: auto;
-        align-items: center !important;
-    }*/
+    
     .linkers {
         width: 80%;
         
