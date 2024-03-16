@@ -99,8 +99,39 @@ footer a{
     align-items: center;
     gap: 0.3em;
 }
+.linkers>hr,.hrs{
+    width: 50%;
+    border: none;
+    padding: 2px;
+    background: red;
+    margin:  0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
 
+.cont-det{
+    width: 260px;
+    height: 260px;
+    background: #2f1500;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 20px;
+}
+.form-sm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
 
+input{
+    width: 50%;
+}
 @media only screen and (max-width: 1025px) {
     .abt{
         flex-direction: column;
